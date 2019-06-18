@@ -11,15 +11,11 @@ import UIKit
 class EpisodeCell: UITableViewCell {
     
     @IBOutlet weak var episodeImageView: UIImageView!
-    
-    @IBOutlet weak var episodeTextView: UITextView!
+    @IBOutlet weak var episodeTextLabel: UILabel!
     
     func setEpisode(episode:Episode){
         episodeImageView.downloaded(from: episode.image.medium)
-        episodeTextView.text = episode.summary.stripOutHtml()
-        
-        episodeTextView.setContentOffset(.zero, animated: true)
-        episodeTextView.layoutIfNeeded()
+        episodeTextLabel.text =  episode.summary.stripOutHtml()
     }
     
 }

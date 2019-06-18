@@ -21,6 +21,9 @@ class EpisodeDetailScreen: UIViewController {
     @IBOutlet weak var episodeHrefLabel: UILabel!
     @IBOutlet weak var eposideSummaryTextView: UITextView!
     
+    @IBOutlet weak var episodeDetailScrollView: UIScrollView!
+    @IBOutlet weak var episodeViewContainer: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        
@@ -29,8 +32,9 @@ class EpisodeDetailScreen: UIViewController {
     }
     
     func setupUI(){
-        UIView.animate(withDuration: 2.0, delay: 0.0, options:.curveEaseIn, animations: {
+        UIView.animate(withDuration: 1.0, delay: 0.0, options:.curveEaseIn, animations: {
             self.view.backgroundColor = BlackGroundBlue
+        self.episodeViewContainer.backgroundColor = .clear
         }, completion:nil)
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: optimaRegular, size: 20)!]
         
