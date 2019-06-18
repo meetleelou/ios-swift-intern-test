@@ -33,7 +33,6 @@
                                                     <rect key="frame" x="16" y="0.0" width="170" height="139.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="170" id="Z1H-Wy-ZrG"/>
-                                                        <constraint firstAttribute="height" constant="139.5" id="sey-gV-0Pb"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiT-xK-65v">
