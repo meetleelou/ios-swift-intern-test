@@ -19,6 +19,7 @@
 		D36D33F722B7B26700F5107A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D33F622B7B26700F5107A /* WebViewController.swift */; };
 		D36D33FA22B7B49300F5107A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36D33F922B7B49300F5107A /* WebKit.framework */; };
 		D36D33FC22B7B86600F5107A /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D33FB22B7B86600F5107A /* Base.swift */; };
+		D36D340322B86BE100F5107A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D36D340222B86BE100F5107A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		D36D33F622B7B26700F5107A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		D36D33F922B7B49300F5107A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D36D33FB22B7B86600F5107A /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		D36D340122B86AF800F5107A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		D36D340222B86BE100F5107A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 				D36D33F622B7B26700F5107A /* WebViewController.swift */,
 				D36D33EE22B76EA000F5107A /* EpisodeCell.swift */,
 				D36D33C422B76B0F00F5107A /* Main.storyboard */,
+				D36D340222B86BE100F5107A /* Localizable.strings */,
 				D36D33C722B76B0F00F5107A /* Assets.xcassets */,
 				D36D33C922B76B0F00F5107A /* LaunchScreen.storyboard */,
 				D36D33CC22B76B0F00F5107A /* Info.plist */,
@@ -254,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D36D33CB22B76B0F00F5107A /* LaunchScreen.storyboard in Resources */,
+				D36D340322B86BE100F5107A /* Localizable.strings in Resources */,
 				D36D33C822B76B0F00F5107A /* Assets.xcassets in Resources */,
 				D36D33C622B76B0F00F5107A /* Main.storyboard in Resources */,
 			);
@@ -325,6 +330,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D36D33C522B76B0F00F5107A /* Base */,
+				D36D340122B86AF800F5107A /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

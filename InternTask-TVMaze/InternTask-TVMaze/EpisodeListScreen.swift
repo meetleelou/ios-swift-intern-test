@@ -55,7 +55,7 @@ class EpisodeListScreen: UIViewController {
     }
     
     func setupUI(){
-        self.title = "Episode List"
+        self.title = NSLocalizedString("titleOfListScreen", comment: "Tile of list screen")
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: optimaRegular, size: 20)!]
         
         tableView.delegate = self
@@ -88,7 +88,7 @@ class EpisodeListScreen: UIViewController {
             if let indexPath = tableView.indexPathForSelectedRow{
                 let selectedRow = indexPath.row
                 let detailVC = segue.destination as! EpisodeDetailScreen
-                detailVC.title = "Episode Detail"
+                detailVC.title = NSLocalizedString("titleOfDetailScreen", comment: "Title of detail screen")
                 detailVC.episode = self.episodes[selectedRow]
             }
         }

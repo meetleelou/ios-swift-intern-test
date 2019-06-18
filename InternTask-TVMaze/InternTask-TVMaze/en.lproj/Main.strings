@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "31i-w3-hML"; */
+"31i-w3-hML.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4ox-y9-CWn"; */
+"4ox-y9-CWn.text" = "Label";
+
+/* Class = "UILabel"; text = "Number"; ObjectID = "6TP-RL-ljO"; */
+"6TP-RL-ljO.text" = "Number";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8E8-h7-lc8"; */
+"8E8-h7-lc8.text" = "Label";
+
+/* Class = "UILabel"; text = "Air Stamp"; ObjectID = "EBW-in-QY8"; */
+"EBW-in-QY8.text" = "Air Stamp";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Nbd-mV-wRO"; */
+"Nbd-mV-wRO.text" = "Label";
+
+/* Class = "UILabel"; text = "href"; ObjectID = "NmS-tb-4me"; */
+"NmS-tb-4me.text" = "href";
+
+/* Class = "UILabel"; text = "Run time"; ObjectID = "S1w-nO-X4a"; */
+"S1w-nO-X4a.text" = "Run time";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XMb-Fx-7w3"; */
+"XMb-Fx-7w3.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YSS-zX-uK9"; */
+"YSS-zX-uK9.text" = "Label";
+
+/* Class = "UILabel"; text = "Air Date"; ObjectID = "ZRy-9E-Hcr"; */
+"ZRy-9E-Hcr.text" = "Air Date";
+
+/* Class = "UIButton"; normalTitle = "Check Detail"; ObjectID = "aXO-MR-fec"; */
+"aXO-MR-fec.normalTitle" = "Check Detail";
+
+/* Class = "UILabel"; text = "Season"; ObjectID = "ihE-Bo-rjv"; */
+"ihE-Bo-rjv.text" = "Season";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jCt-YD-N7o"; */
+"jCt-YD-N7o.text" = "Label";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "rfG-c0-y8v"; */
+"rfG-c0-y8v.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
