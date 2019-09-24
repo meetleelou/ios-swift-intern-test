@@ -20,37 +20,32 @@ class SummaryTableViewController: UITableViewController {
         getShowList(sucessHandler: { (data) in
             self.listData = data
             
-            DispatchQueue.global(qos: .background).async {
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
 
-
-                DispatchQueue.main.async {
-                    self.tableView.reloadData()
-
-                }
             }
-
-            
+ 
         }) { (erro) in
             print("ERROR")
         }
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return listData.count
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return listData.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "summaryCell", for: indexPath) as! SummaryTableViewCell
         
 
-        cell.name.text = listData[indexPath.section].name
+        cell.name.text = listData[indexPath.row].name
         
         
-        if let summaryText = listData[indexPath.section].summary {
+        if let summaryText = listData[indexPath.row].summary {
             let start = summaryText.index(summaryText.startIndex, offsetBy: 3)
             let end = summaryText.index(summaryText.endIndex, offsetBy: -4)
             
@@ -58,7 +53,7 @@ class SummaryTableViewController: UITableViewController {
         }
         
 
-        let imageurl = URL(string: listData[indexPath.section].image!)!
+        let imageurl = URL(string: listData[indexPath.row].image!)!
 
         DispatchQueue.global().async {
             if let data = try? Data(contentsOf: imageurl) {
@@ -85,10 +80,18 @@ class SummaryTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let vc = segue.destination as? DetailViewController, let indexPath = sender as? IndexPath {
-                vc.detailString = listData[indexPath.section].getFormattedOutput()
-                vc.originalImageString = listData[indexPath.section].originalImage
                 
-                vc.urlLink = listData[indexPath.section].url
+                vc.name = listData[indexPath.row].name
+                vc.number = listData[indexPath.row].number
+                vc.season = listData[indexPath.row].season
+                vc.airtime = listData[indexPath.row].airtime
+                vc.airstamp = listData[indexPath.row].airstamp
+                vc.runtime = listData[indexPath.row].runtime
+                vc.summary = listData[indexPath.row].summary
+                
+                vc.urlLink = listData[indexPath.row].url
+                vc.originalImageString = listData[indexPath.row].originalImage
+
             }
             
         }

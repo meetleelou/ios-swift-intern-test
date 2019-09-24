@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  ios-swift-intern-test
+
+  Created by Clark on 24/9/19.
+  Copyright © 2019 Hongfei Yang. All rights reserved.
+*/
+
+
+urlLink = "Link";
+name = "Name";
+number = "Number";
+season = "Season";
+airtime = "Airtime";
+airstamp = "Airstamp";
+runtime = "Runtime";
+summary = "Summary";

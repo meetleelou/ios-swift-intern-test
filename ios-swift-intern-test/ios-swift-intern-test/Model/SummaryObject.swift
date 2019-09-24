@@ -19,7 +19,7 @@ class SummaryObject {
 
     var airtime: String?
     var airstamp: String?
-    var runtime: String?
+    var runtime: Int?
     
     var url: String?
     var season: Int?
@@ -38,7 +38,7 @@ class SummaryObject {
         summary = info["summary"] as? String
         airtime = info["airtime"] as? String
         airstamp = info["airstamp"] as? String
-        runtime = info["runtime"] as? String
+        runtime = info["runtime"] as? Int
         url = info["url"] as? String
         season = info["season"] as? Int
         number = info["number"] as? Int
@@ -46,8 +46,8 @@ class SummaryObject {
     
     func getFormattedOutput() -> String {
         
-        
-        let string = "Name: \(name ?? "unknown")\nSeason: \(season ?? -1)\nNumber: \(number ?? -1)\nAirtime: \(airtime ?? "unknown")\nRuntime: \(runtime ?? "unknown") minutes\n\nSummary: \(summary ?? "unknown")"
+ 
+        let string = "Name: \(name ?? "unknown")\nSeason: \(season ?? -1)\nNumber: \(number ?? -1)\nAirtime: \(airtime ?? "unknown")\nRuntime: \(runtime ?? -1) minutes\n\nSummary: \(summary ?? "unknown")"
         
        
         

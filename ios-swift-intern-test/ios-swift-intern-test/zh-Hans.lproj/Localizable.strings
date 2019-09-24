@@ -1,0 +1,16 @@
+/* 
+  ViewController.strings
+  ios-swift-intern-test
+
+  Created by Clark on 24/9/19.
+  Copyright © 2019 Hongfei Yang. All rights reserved.
+*/
+
+urlLink = "链接";
+name = "名称";
+number = "集";
+season = "季";
+airtime = "上映时间";
+airstamp = "上映时间印";
+runtime = "时长";
+summary = "简介";
